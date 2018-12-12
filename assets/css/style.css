@@ -376,6 +376,28 @@ ul.alphasearch li {
  
 /* FAQ Page */
 
+.faqq{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+
+.faqq-header {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.faqq a, .faqq a:hover {
+	background: #fff;
+    color: #20538d;
+	border: solid 2px #20538d;
+	border-radius: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	margin-top: 60px;
+}
+
+
 .content-area-7 {
     padding: 60px 0;
 }
