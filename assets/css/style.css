@@ -690,7 +690,7 @@ h6 {
     color: #555;
     background-color: #fbfbfb;
     background-image: none;
-    border: none;
+    border-color: #ccc;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
@@ -710,6 +710,42 @@ h6 {
 /* end submit entry */
 
 
+/* index-search */
+
+.exsh {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.exsh h1{
+	font-size: 50px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+
+.exsh h5{
+	font-size: 20px;
+	color: #20538d;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+.exsh p{
+	padding-bottom: 20px;
+}
+
+
+
+.exsh-wd {
+	padding: 30px 30px;
+	text-decoration: underline;
+	list-style: none;
+	line-height: 35px;
+}
+
+
+/* end index search */
 
 
 
