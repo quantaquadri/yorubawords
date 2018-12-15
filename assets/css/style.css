@@ -750,6 +750,202 @@ h6 {
 
 
 
+/* public entry page */
+
+.hword{
+    color: #303336;
+    display: inline;
+    font-size: 48px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    padding-right: 15px;
+}
+
+.fl {
+	color: #4a7d95;
+    display: inline;
+    font-size: 26px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.entry-attr {
+    font-size: 18px;
+    line-height: 22px;
+    color: #225f73;
+}
+
+.entry-attr .word-syllables {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.prs, .vrs, .vg-ins, .uros {
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+}
+
+.entry-attr .syl-break {
+    padding: 0 7px;
+}
+
+.prs .play-pron:last-of-type {
+    margin-right: 1px;
+}
+
+.vg-header {
+    margin-top: 18px;
+}
+
+.vg .sb.has-num {
+    padding-left: 33px;
+}
+
+.ptm {
+    color: #265667;	
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+}
+
+.entryNumbers {
+    color: #265667;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+}
+
+
+.vg .sb {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.vg span {
+    font-size: 18px;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+}
+
+.vg span[class^="sb-"] {
+    display: block;
+    margin-top: 15px;
+}
+
+.vg .t:before {
+    content: '//';
+    font-weight: bold;
+    padding: 0 4px 0 0;
+}
+
+.vg .mw_t_wi, #definition-wrapper .vg .mw_t_phrase {
+    font-style: italic;
+}
+
+.vg .num {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.vg .sn {
+    font-weight: bold;
+}
+
+.vg .dt {
+    color: #303336;
+    display: inline;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+}
+
+.vg span a {
+    background-image: linear-gradient(to right,#97bece 100%,transparent 0);
+    background-position: 0 1.15em;
+    background-repeat: repeat-x;
+    background-size: 3px 1px;
+    color: #265667;
+}
+
+.vg .ex-sent:last-of-type {
+    padding-bottom: 0!important;
+}
+
+.vg .t {
+    color: #225f73;
+    display: block;
+    padding-top: 5px;
+}
+
+.vg .sb.has-num .has-num-only {
+    margin-left: 0;
+}
+
+.widget {
+    letter-spacing: 0.2px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+/* .play-pron {
+    background-image: url(//assetsdev2.m-w.com/mw/static/app-css-images/definitions/icon.pron@2x.png);
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 4px;
+    margin-top: -5px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 22px;
+}
+
+#definition-wrapper .play-pron {
+    background-image: none!important;
+} */
+
+
+
+
+
+/* end public entry page */
+
+
+
+
+
 /* ----- Media queries ----- */
 
 @media (max-width: 1200px) {
