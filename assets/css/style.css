@@ -213,7 +213,7 @@ header .container img.logo {
 
 .search-background {
 	background-color: #fff;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 }
 
 ul.alphasearch {
@@ -391,7 +391,7 @@ ul.alphasearch li {
 .home-games-wgt-cnt .home-games-wgt-items div {
     position: relative;
     float: left;
-    width: 33.333%;
+    width: 25%;
     box-sizing: border-box;
     border-right: 1px solid #dadada;
     padding: 0 1.6em;
@@ -541,7 +541,8 @@ ul.alphasearch li {
 
 .popotext{
 	font-weight: 600;
-	color: #20538d;
+    color: #20538d;
+    text-decoration: underline;
 }
 
 /* * ========================End popular words================================= */ 
