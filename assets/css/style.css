@@ -1,4 +1,6 @@
-/* SECTION 1: Bootstrap Override */
+
+
+/* =========== SECTION 1: Bootstrap Override =============== */
 
 .form-control, .btn, input, textarea { border-radius:0; }
 
@@ -48,14 +50,12 @@ a#link {
 	font-weight: bold;
 }
 
-/*  SECTION 2: Typography */
 
-/*
-Arial
-Brandon Grotesque W01 | 200,500
-FF Meta W01 | 200,300
-FF Meta W07 | 400,700
-*/
+
+
+
+
+/* ================== SECTION 2: Typography ========================= */
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -95,7 +95,13 @@ footer {
 	text-transform: capitalize;
 }
 
-/* SECTION 3: Layouts */
+
+
+
+
+
+
+/* ================ SECTION 3: Layouts ================== */
 
 header {
 	padding-top: 5px;
@@ -135,12 +141,22 @@ header .container img.logo {
     background: none;
 }
 
-/* Search bar area */
+
+
+
+
+
+
+
+/* =============== Search bar area =================== */
 
 .jumbotron {
 	background: #20538d no-repeat center center;
+	/* background-size: cover; */
+	/* background-image: url(../img/bg/IMG_0089.jpg); */
 	color: #fff;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 .jumbotron.mini {
@@ -187,7 +203,8 @@ header .container img.logo {
 	user-select: none;
 } */
 
-/* ==================Search Bar============================  */
+
+
 .search-input { 
 	position: relative;
   	display: inline-block;
@@ -322,10 +339,192 @@ ul.alphasearch li {
 
 
 
-/* ========================popular words================================= */
+
+
+
+
+
+
+/* =========== Featured Blog Post On Homepage ================= */
+
+.bg-fet {
+    background: #fbfbfb;
+}
+
+.padding-lr-0p8em {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.in-cnt-type1 {
+    margin: 0 auto;
+    max-width: 1136px;
+    position: relative;
+    width: 100%;
+}
+
+.home-games-wgt-cnt {
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 0.9375em 0;
+}
+.home-games-wgt-cnt .home-games-wgt-items h4 {
+    position: relative;
+    padding-top: 1.7857em;
+    margin: 0 auto;
+    width: 70%;
+}
+.home-games-wgt-cnt .home-games-wgt-items h4+div {
+    padding-left: 2em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items div {
+    position: relative;
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    border-right: 1px solid #dadada;
+    padding: 0 1.6em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items a {
+    color: inherit;
+}
+
+.lazyload-container.ratio-3-2 {
+    padding-bottom: 66.67%;
+}
+
+.lazyload-container {
+    position: relative;
+    height: 0;
+    display: block;
+    background-color: #d7d5d5;
+}
+
+
+.home-games-wgt-cnt .home-games-wgt-items img {
+    border: 1px solid #dfdfdf;
+}
+
+.lazyload-container img.lazyloaded {
+    width: 100%;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items h5 {
+    color: #3b3e41;
+    font-size: 1.0625em;
+    line-height: 1.3571;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    letter-spacing: 0.047em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items p.mell-wh-0 {
+    overflow: hidden;
+    height: 2.9332em;
+    line-height: 1.4666em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items p {
+    font-size: 0.937em;
+    line-height: 1.4666em;
+    letter-spacing: 0.0533em;
+    margin-bottom: 1.1em;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items p.mell-wh-0>*:first-child {
+    float: right;
+    width: 100%;
+    margin-left: -5px;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items .quiz-link {
+    text-align: center;
+}
+
+.home-games-wgt-cnt .home-games-wgt-items .quiz-link, .waplanding-see-all a {
+    color: #fff;
+    /* display: block; */
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    line-height: 0.9375em;
+    padding: 1em;
+    position: relative;
+    /* text-align: left; */
+    /* text-indent: 0.3125em; */
+	/* text-transform: uppercase; */
+	
+	background: #20538d;
+	/* border: solid 2px #fff; */
+	border-radius: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	margin-top: 30px;
+	
+}
+
+
+.gray-divide.home-divide {
+    float: none;
+    margin-bottom: 0;
+}
+
+.gray-divide {
+    background: #dadada;
+    border: 0;
+    float: left;
+    height: 0.0625em;
+    margin-bottom: 1.438em;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 60em){
+.home-games-wgt-cnt .home-games-wgt-items {
+    padding: 0;
+}}
+
+@media (max-width: 47.9375em){
+.home-games-wgt-cnt .home-games-wgt-items h4+div {
+    padding: 0;
+}}
+
+@media (max-width: 47.9375em){
+.home-games-wgt-cnt .home-games-wgt-items div {
+    clear: both;
+    float: none;
+    margin: 0 auto 2em 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-right: 0;
+    padding: 0;
+}}
+
+
+/* ================= End Featured Blog Post on Homepage =============== */
+
+
+
+
+
+
+/* ======================== Popular Words ================================= */
 
 .midbar{
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-bottom: 50px;
 }
 
@@ -349,7 +548,12 @@ ul.alphasearch li {
 
 
 
-/* call to action row */
+
+
+
+
+
+/* ================== Call To Action Row =========================== */
 
 .ctab{
 	background-color: #20538d;
@@ -369,12 +573,19 @@ ul.alphasearch li {
 }
 
 
-/* end call to action row */
+/* ================ End Call To Action Row ====================== */
+
+
 
 
 
  
-/* FAQ Page */
+/* ====================== FAQ Page ============================== */
+
+.trd{
+    line-height: 30px;
+}
+
 
 .faqq{
 	padding-top: 60px;
@@ -478,11 +689,15 @@ ul.alphasearch li {
 }
 
 
-/* End FAQ Page */
+/* ==================== End FAQ Page =========================== */
 
 
 
-/* Footer */
+
+
+
+
+/* =====================  Footer ======================== */
 
 .footer-area {
     padding-top: 100px;
@@ -575,10 +790,16 @@ h6 {
 }
 
 
-/* end foooter */
+/* ==================== End Foooter ============================= */
 
 
-/* contact */
+
+
+
+
+
+/* ========================= Contact =============================== */
+
 .section-padding {
     padding: 80px 0;
 }
@@ -654,10 +875,16 @@ h6 {
 	text-transform: uppercase;
 	margin-top: 40px;
 }
-/* end contact */
+
+/* ====================== End Contact =========================== */
 
 
-/* submit entry */
+
+
+
+
+
+/* ======================== Submit Entry ========================= */
 
 .subent-padding {
     padding: 60px 0;
@@ -690,7 +917,7 @@ h6 {
     color: #555;
     background-color: #fbfbfb;
     background-image: none;
-    border-color: #ccc;
+    border-color: #ddd;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
@@ -707,10 +934,16 @@ h6 {
 .sbt{
 	padding-bottom: 50px;
 }
-/* end submit entry */
+
+/*  ==================== End Submit Entry ===================== */
 
 
-/* index-search */
+
+
+
+
+
+/* ================== Index-Search ============================ */
 
 .exsh {
 	padding-top: 10px;
@@ -745,12 +978,27 @@ h6 {
 }
 
 
-/* end index search */
+/* ===================== End Index Search ====================== */
 
 
 
 
-/* public entry page */
+
+
+
+
+/* ================================== Public Entry Page ============================= */
+
+.sharecon{
+	color: #777;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.ryt{
+	padding-top: 80px;
+}
+
 
 .hword{
     color: #303336;
@@ -767,7 +1015,7 @@ h6 {
 .fl {
 	color: #4a7d95;
     display: inline;
-    font-size: 26px;
+    font-size: 20px;
     font-stretch: normal;
     font-style: normal;
     font-weight: bold;
@@ -779,7 +1027,8 @@ h6 {
 .entry-attr {
     font-size: 18px;
     line-height: 22px;
-    color: #225f73;
+	color: #225f73;
+	margin-top: 20px;
 }
 
 .entry-attr .word-syllables {
@@ -808,9 +1057,9 @@ h6 {
     margin-right: 1px;
 }
 
-.vg-header {
+/* .vg-header {
     margin-top: 18px;
-}
+} */
 
 .vg .sb.has-num {
     padding-left: 33px;
@@ -819,6 +1068,17 @@ h6 {
 .ptm {
     color: #265667;	
     font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+}
+
+.ptw {
+    font-size: 18px;
     font-stretch: normal;
     font-style: normal;
     font-weight: bold;
@@ -937,16 +1197,68 @@ h6 {
 } */
 
 
+.search-input-p { 
+	position: relative;
+  	display: inline-block;
+  	margin: 10px 0px 10px 0px;
+}
+
+
+.th-p, .th-query-p {
+	text-indent: 0px;
+  	border-radius: 50px;
+	height: 55px;
+	width: 300px;
+	margin: 0;
+	border: 0;
+	font-size: 15px;
+	color: #000;
+	text-align:center;
+
+	-webkit-box-shadow: 0 0 0 1px #20538d;
+	-moz-box-shadow: 0 0 0 1px #20538d;
+	box-shadow: 0 0 0 1px #20538d;
+}
+
+.th-p:focus, .th-query-p:focus {
+	-webkit-box-shadow: 0 0 0 3px #20538d;
+	-moz-box-shadow: 0 0 0 3px #20538d;
+	box-shadow: 0 0 0 3px #20538d;
+}
+
+
+.popo-bg-p {
+	text-align: center;
+	background-color: #fafafa;
+	padding-top: 20px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popo-wd-p {
+	padding: 10px 10px;
+	text-decoration: none;
+	list-style: none;
+	line-height: 35px;
+}
+
+.popotext-p{
+	font-weight: 600;
+	color: #20538d;
+}
 
 
 
-/* end public entry page */
+
+
+
+/* ====================== End Public Entry Page  ================================ */
 
 
 
 
 
-/* ----- Media queries ----- */
+
+/* ========================== Media Queries ===================================== */
 
 @media (max-width: 1200px) {
 
@@ -1022,64 +1334,9 @@ h6 {
 }
 
 
-/* public entry page */
 
 
-.search-input-p { 
-	position: relative;
-  	display: inline-block;
-  	margin: 10px 0px 10px 0px;
-}
-
-
-.th-p, .th-query-p {
-	text-indent: 0px;
-  	border-radius: 50px;
-	height: 55px;
-	width: 350px;
-	margin: 0;
-	border: 0;
-	font-size: 15px;
-	color: #000;
-	text-align:center;
-
-	-webkit-box-shadow: 0 0 0 1px #20538d;
-	-moz-box-shadow: 0 0 0 1px #20538d;
-	box-shadow: 0 0 0 1px #20538d;
-}
-
-.th-p:focus, .th-query-p:focus {
-	-webkit-box-shadow: 0 0 0 3px #20538d;
-	-moz-box-shadow: 0 0 0 3px #20538d;
-	box-shadow: 0 0 0 3px #20538d;
-}
-
-
-.popo-bg-p {
-	text-align: center;
-	background-color: #fafafa;
-	padding-top: 20px;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-}
-
-.popo-wd-p {
-	padding: 10px 10px;
-	text-decoration: none;
-	list-style: none;
-	line-height: 35px;
-}
-
-.popotext-p{
-	font-weight: 600;
-	color: #20538d;
-}
-
-/* end public entry page */
-
-
-
-
-/* index search page */
+/* ============= Index Search Page =============== */
 
 
 .search-background-s{
@@ -1087,6 +1344,7 @@ h6 {
     margin-bottom: 20px;
 }
 
+/* ============ End of Index Search Page =================== */
 
 
 
@@ -1105,7 +1363,28 @@ h6 {
 
 
 
-/* end of index search page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
